@@ -3,15 +3,15 @@ export default function VoiceSupportSite() {
     {
       title: "جلسة 20 دقيقة",
       duration: "20 دقيقة",
-      price: "2 ريال",
+      price: "3 ريال",
       description: "جلسة صوتية قصيرة للفضفضة والدعم بلطف وهدوء.",
       whatsappLink:
         "https://api.whatsapp.com/send?phone=96896160109&text=%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%AD%D8%AC%D8%B2%20%D8%AC%D9%84%D8%B3%D8%A9%2020%20%D8%AF%D9%82%D9%8A%D9%82%D8%A9",
     },
     {
-      title: "جلسة 40 دقيقة",
-      duration: "40 دقيقة",
-      price: "5 ريال",
+      title: "جلسة 45 دقيقة",
+      duration: "45 دقيقة",
+      price: "7 ريال",
       description: "جلسة أطول للتعمق في الحديث والراحة أكثر.",
       popular: true,
       whatsappLink:
@@ -21,7 +21,7 @@ export default function VoiceSupportSite() {
 
   const features = [
     "جلسات صوتية فقط",
-    "دعم نفسي غير علاجي",
+   "الرد خلال 5 دقائق",
     "خصوصية وسرية تامة",
     "حجز سهل وسريع",
   ];
@@ -53,7 +53,7 @@ export default function VoiceSupportSite() {
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <div className="transition duration-300 hover:scale-[1.02]">
             <p className="text-xl font-bold text-rose-500">مساحتك الهادية</p>
-            <p className="text-xs text-slate-500">جلسات فضفضة صوتية خاصة</p>
+            <p className="text-xs text-slate-500">مساحة آمنة 100% وسرية تامة بدون أي حكم"</p>
           </div>
 
           <nav className="hidden gap-6 text-sm md:flex">
@@ -160,7 +160,7 @@ export default function VoiceSupportSite() {
                   20 دقيقة
                 </span>
                 <span className="rounded-full bg-white px-4 py-2 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md">
-                  40 دقيقة
+                  45 دقيقة
                 </span>
                 <span className="rounded-full bg-white px-4 py-2 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md">
                   جلسات فردية
@@ -203,7 +203,7 @@ export default function VoiceSupportSite() {
                     <div className="rounded-2xl bg-pink-50 p-4 transition duration-300 hover:-translate-y-1 hover:shadow-md">
                       <p className="text-sm text-slate-500">الخيارات</p>
                       <p className="mt-1 font-semibold text-slate-800">
-                        20 أو 40 دقيقة
+                        20 أو 45 دقيقة
                       </p>
                     </div>
                   </div>
@@ -225,7 +225,8 @@ export default function VoiceSupportSite() {
                 عن الخدمة
               </p>
               <h2 className="mb-4 text-3xl font-bold text-slate-800">
-                مكان بسيط، مريح، وبدون أحكام
+               لو حاس إنك محتاج أحد يسمعك بدون ما يحكم عليك…
+أنا هنا عشانك 💗
               </h2>
               <p className="leading-8 text-slate-600">
                 أقدم جلسات فضفضة صوتية فردية للأشخاص الذين يحتاجون إلى مساحة آمنة
@@ -329,7 +330,7 @@ export default function VoiceSupportSite() {
                   rel="noreferrer"
                   className="inline-block rounded-full bg-rose-400 px-8 py-3 font-semibold text-white shadow-sm transition duration-300 hover:scale-[1.04] hover:bg-rose-500"
                 >
-                  احجز جلستك
+                 احجز الآن 💗
                 </a>
               </div>
             ))}
@@ -354,11 +355,9 @@ export default function VoiceSupportSite() {
                   • الجلسات فردية وصوتية
                 </p>
                 <p className="transition duration-300 hover:translate-x-1">
-                  • تتوفر جلسات 20 دقيقة و40 دقيقة
+                  • تتوفر جلسات 20 دقيقة و45 دقيقة
                 </p>
-                <p className="transition duration-300 hover:translate-x-1">
-                  • الأسعار تبدأ من 2 ريال
-                </p>
+
                 <p className="transition duration-300 hover:translate-x-1">
                   • هذه الخدمة للدعم المعنوي والفضفضة فقط
                 </p>
