@@ -243,36 +243,6 @@ export default function VoiceSupportSite() {
           </div>
         </section>
 
-        <section className="mx-auto max-w-6xl px-6 py-10">
-          <div className="rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-rose-100 transition duration-300 hover:shadow-lg">
-            <div className="mb-8 max-w-2xl">
-              <p className="mb-3 text-sm font-semibold text-rose-500">
-                كيف يتم الحجز
-              </p>
-              <h2 className="text-3xl font-bold text-slate-800">
-                خطوات سهلة وواضحة
-              </h2>
-            </div>
-
-            <div className="grid gap-5 md:grid-cols-3">
-              {steps.map((step, index) => (
-                <div
-                  key={step.title}
-                  className="rounded-[1.5rem] bg-gradient-to-b from-rose-50 to-white p-6 ring-1 ring-rose-100 transition duration-300 hover:-translate-y-2 hover:shadow-lg"
-                >
-                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-rose-400 text-lg font-bold text-white transition duration-300 hover:scale-110 hover:rotate-6">
-                    {index + 1}
-                  </div>
-                  <h3 className="mb-2 text-xl font-bold text-slate-800">
-                    {step.title}
-                  </h3>
-                  <p className="leading-7 text-slate-600">{step.text}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
         <section id="pricing" className="mx-auto max-w-6xl px-6 py-10">
           <div className="mb-8 text-center">
             <p className="mb-2 text-sm font-semibold text-rose-500">الأسعار</p>
