@@ -25,21 +25,6 @@ export default function VoiceSupportSite() {
     "حجز سهل وسريع",
   ];
 
-  const steps = [
-    {
-      title: "اختار الجلسة المناسبة",
-      text: "يمكنك اختيار الجلسة التي تناسب وقتك واحتياجك بسهولة.",
-    },
-    {
-      title: "ارسل طلب الحجز",
-      text: "بالضغط على زر الحجز سيتم فتح واتساب مباشرة برسالة جاهزة.",
-    },
-    {
-      title: "ابدء الفضفضة",
-      text: "مساحة آمنة تسمح لك بالكلام بحرية وبدون حكم.",
-    },
-  ];
-
   const mainWhatsappLink =
     "https://api.whatsapp.com/send?phone=96896160109&text=%D8%A3%D9%87%D9%84%D8%A7%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AC%D9%84%D8%B3%D8%A7%D8%AA%20%D8%A7%D9%84%D9%81%D8%B6%D9%81%D8%B6%D8%A9";
 
