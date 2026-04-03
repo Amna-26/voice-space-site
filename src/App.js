@@ -20,7 +20,6 @@ export default function VoiceSupportSite() {
   ];
 
   const features = [
-    "جلسات صوتية فقط",
    "الرد خلال 5 دقائق",
     "خصوصية وسرية تامة",
     "حجز سهل وسريع",
