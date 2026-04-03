@@ -52,7 +52,7 @@ export default function VoiceSupportSite() {
       <header className="sticky top-0 z-20 border-b border-white/60 bg-white/70 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <div className="transition duration-300 hover:scale-[1.02]">
-            <p className="text-xl font-bold text-rose-500">مساحتك الهادية</p>
+            <p className="text-xl font-bold text-rose-500">مساحتك الهادئه</p>
             <p className="text-xs text-slate-500">مساحة آمنة 100% وسرية تامة بدون أي حكم"</p>
           </div>
 
