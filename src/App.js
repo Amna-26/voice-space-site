@@ -28,15 +28,15 @@ export default function VoiceSupportSite() {
 
   const steps = [
     {
-      title: "اختاري الجلسة المناسبة",
+      title: "اختار الجلسة المناسبة",
       text: "يمكنك اختيار الجلسة التي تناسب وقتك واحتياجك بسهولة.",
     },
     {
-      title: "أرسلي طلب الحجز",
+      title: "ارسل طلب الحجز",
       text: "بالضغط على زر الحجز سيتم فتح واتساب مباشرة برسالة جاهزة.",
     },
     {
-      title: "ابدئي الفضفضة",
+      title: "ابدء الفضفضة",
       text: "مساحة آمنة تسمح لك بالكلام بحرية وبدون حكم.",
     },
   ];
@@ -134,8 +134,8 @@ export default function VoiceSupportSite() {
                   للفضفضة بصوتك
                 </h1>
                 <p className="max-w-xl text-lg leading-8 text-slate-600">
-                  إذا كنت تحتاجين شخص يسمعك بهدوء وبدون حكم، هذه المساحة صُممت
-                  لك. اختاري بين جلسة قصيرة سريعة أو جلسة أطول تمنحك وقتًا أكبر
+                  إذا كنت تحتاج شخص يسمعك بهدوء وبدون حكم، هذه المساحة صُممت
+                  لك. اختار بين جلسة قصيرة سريعة أو جلسة أطول تمنحك وقتًا أكبر
                   للراحة والتعبير.
                 </p>
               </div>
@@ -179,7 +179,7 @@ export default function VoiceSupportSite() {
                   </div>
                   <div>
                     <p className="font-bold text-slate-800">
-                      جلسات فضفضة صوتية
+                     جلسات فضفضة سرية
                     </p>
                     <p className="text-sm text-slate-500">استماع بكل حب</p>
                   </div>
@@ -197,7 +197,7 @@ export default function VoiceSupportSite() {
                     <div className="rounded-2xl bg-pink-50 p-4 transition duration-300 hover:-translate-y-1 hover:shadow-md">
                       <p className="text-sm text-slate-500">نوع الجلسة</p>
                       <p className="mt-1 font-semibold text-slate-800">
-                        صوتية فقط
+                        صوتية 
                       </p>
                     </div>
                     <div className="rounded-2xl bg-pink-50 p-4 transition duration-300 hover:-translate-y-1 hover:shadow-md">
