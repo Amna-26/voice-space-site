@@ -155,21 +155,6 @@ export default function VoiceSupportSite() {
                   اعرف أكثر
                 </a>
               </div>
-
-              <div className="flex flex-wrap gap-3 pt-2 text-sm text-slate-500">
-                <span className="rounded-full bg-white px-4 py-2 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md">
-                  20 دقيقة
-                </span>
-                <span className="rounded-full bg-white px-4 py-2 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md">
-                  45 دقيقة
-                </span>
-                <span className="rounded-full bg-white px-4 py-2 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md">
-                  جلسات فردية
-                </span>
-                <span className="rounded-full bg-white px-4 py-2 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md">
-                  سرية تامة
-                </span>
-              </div>
             </div>
 
             <div className="relative">
