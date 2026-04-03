@@ -53,7 +53,7 @@ export default function VoiceSupportSite() {
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <div className="transition duration-300 hover:scale-[1.02]">
             <p className="text-xl font-bold text-rose-500">مساحتك الهادئه</p>
-            <p className="text-xs text-slate-500">مساحة آمنة 100% وسرية تامة بدون أي حكم"</p>
+            <p className="text-xs text-slate-500">مساحة آمنة 100% وسرية تامة بدون أي حكم</p>
           </div>
 
           <nav className="hidden gap-6 text-sm md:flex">
@@ -129,14 +129,15 @@ export default function VoiceSupportSite() {
 
               <div className="space-y-4">
                 <h1 className="text-4xl font-extrabold leading-tight text-slate-800 md:text-5xl">
-                  مساحة آمنة
+                 أحيانًا ما نحتاج حل…
                   <br />
-                  للفضفضة بصوتك
+                 بس نحتاج أحد يسمعنا 💗
                 </h1>
                 <p className="max-w-xl text-lg leading-8 text-slate-600">
-                  إذا كنت تحتاج شخص يسمعك بهدوء وبدون حكم، هذه المساحة صُممت
-                  لك. اختار بين جلسة قصيرة سريعة أو جلسة أطول تمنحك وقتًا أكبر
-                  للراحة والتعبير.
+                 لو حاس إن الكلام متراكم داخلك…
+                وما لقيت أحد يسمعك بدون حكم أو مقاطعة،
+                هنا مساحتك : هذه المساحة صُممت لك،
+                عشان تتكلم براحتك وتخفف اللي داخلك 
                 </p>
               </div>
 
