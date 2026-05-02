@@ -20,7 +20,7 @@ export default function VoiceSupportSite() {
   ];
 
   const features = [
-   "الرد خلال 5 دقائق",
+    "الرد خلال 5 دقائق",
     "خصوصية وسرية تامة",
     "حجز سهل وسريع",
   ];
@@ -67,36 +67,34 @@ export default function VoiceSupportSite() {
             </a>
           </nav>
 
-<div className="flex items-center gap-3">
+          <div className="flex items-center gap-3">
+            <a
+              href="https://www.instagram.com/s3_1oa?igsh=dG9taDFwNDhzcDNo"
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center gap-2 rounded-full border border-rose-200 px-4 py-2 text-sm font-semibold text-rose-500 transition duration-300 hover:bg-rose-50 hover:scale-[1.04]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path d="M7.75 2C4.68 2 2 4.68 2 7.75v8.5C2 19.32 4.68 22 7.75 22h8.5C19.32 22 22 19.32 22 16.25v-8.5C22 4.68 19.32 2 16.25 2h-8.5zm0 1.5h8.5A4.25 4.25 0 0120.5 7.75v8.5a4.25 4.25 0 01-4.25 4.25h-8.5A4.25 4.25 0 013.5 16.25v-8.5A4.25 4.25 0 017.75 3.5zm8.75 1.25a.75.75 0 100 1.5.75.75 0 000-1.5zM12 7a5 5 0 100 10 5 5 0 000-10zm0 1.5A3.5 3.5 0 1112 15a3.5 3.5 0 010-7z" />
+              </svg>
 
-<a
-  href="https://www.instagram.com/w3_1as"
-  target="_blank"
-  rel="noreferrer"
-  className="flex items-center gap-2 rounded-full border border-rose-200 px-4 py-2 text-sm font-semibold text-rose-500 transition duration-300 hover:bg-rose-50 hover:scale-[1.04]"
->
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    className="h-4 w-4"
-    fill="currentColor"
-    viewBox="0 0 24 24"
-  >
-    <path d="M7.75 2C4.68 2 2 4.68 2 7.75v8.5C2 19.32 4.68 22 7.75 22h8.5C19.32 22 22 19.32 22 16.25v-8.5C22 4.68 19.32 2 16.25 2h-8.5zm0 1.5h8.5A4.25 4.25 0 0120.5 7.75v8.5a4.25 4.25 0 01-4.25 4.25h-8.5A4.25 4.25 0 013.5 16.25v-8.5A4.25 4.25 0 017.75 3.5zm8.75 1.25a.75.75 0 100 1.5.75.75 0 000-1.5zM12 7a5 5 0 100 10 5 5 0 000-10zm0 1.5A3.5 3.5 0 1112 15a3.5 3.5 0 010-7z" />
-  </svg>
+              انستغرام
+            </a>
 
-  انستغرام
-</a>
-
-  <a
-    href={mainWhatsappLink}
-    target="_blank"
-    rel="noreferrer"
-    className="rounded-full bg-rose-400 px-5 py-2 text-sm font-semibold text-white shadow-sm transition duration-300 hover:scale-[1.04] hover:bg-rose-500"
-  >
-    احجز الان
-  </a>
-
-</div>
+            <a
+              href={mainWhatsappLink}
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-full bg-rose-400 px-5 py-2 text-sm font-semibold text-white shadow-sm transition duration-300 hover:scale-[1.04] hover:bg-rose-500"
+            >
+              احجز الان
+            </a>
+          </div>
         </div>
       </header>
 
@@ -113,15 +111,15 @@ export default function VoiceSupportSite() {
 
               <div className="space-y-4">
                 <h1 className="text-4xl font-extrabold leading-tight text-slate-800 md:text-5xl">
-                 أحيانًا ما نحتاج حل…
+                  أحيانًا ما نحتاج حل…
                   <br />
-                 بس نحتاج أحد يسمعنا 💗
+                  بس نحتاج أحد يسمعنا 💗
                 </h1>
                 <p className="max-w-xl text-lg leading-8 text-slate-600">
-                 لو حاس إن الكلام متراكم داخلك…
-                وما لقيت أحد يسمعك بدون حكم أو مقاطعة،
-                هنا مساحتك : هذه المساحة صُممت لك،
-                عشان تتكلم براحتك وتخفف اللي داخلك 
+                  لو حاس إن الكلام متراكم داخلك…
+                  وما لقيت أحد يسمعك بدون حكم أو مقاطعة،
+                  هنا مساحتك : هذه المساحة صُممت لك،
+                  عشان تتكلم براحتك وتخفف اللي داخلك
                 </p>
               </div>
 
@@ -149,7 +147,7 @@ export default function VoiceSupportSite() {
                   </div>
                   <div>
                     <p className="font-bold text-slate-800">
-                     جلسات فضفضة سرية
+                      جلسات فضفضة سرية
                     </p>
                     <p className="text-sm text-slate-500">استماع بكل حب</p>
                   </div>
@@ -167,7 +165,7 @@ export default function VoiceSupportSite() {
                     <div className="rounded-2xl bg-pink-50 p-4 transition duration-300 hover:-translate-y-1 hover:shadow-md">
                       <p className="text-sm text-slate-500">نوع الجلسة</p>
                       <p className="mt-1 font-semibold text-slate-800">
-                        صوتية 
+                        صوتية
                       </p>
                     </div>
                     <div className="rounded-2xl bg-pink-50 p-4 transition duration-300 hover:-translate-y-1 hover:shadow-md">
@@ -195,8 +193,8 @@ export default function VoiceSupportSite() {
                 عن الخدمة
               </p>
               <h2 className="mb-4 text-3xl font-bold text-slate-800">
-               لو حاس إنك محتاج أحد يسمعك بدون ما يحكم عليك…
-أنا هنا عشانك 💗
+                لو حاس إنك محتاج أحد يسمعك بدون ما يحكم عليك…
+                أنا هنا عشانك 💗
               </h2>
               <p className="leading-8 text-slate-600">
                 أقدم جلسات فضفضة صوتية فردية للأشخاص الذين يحتاجون إلى مساحة آمنة
@@ -270,7 +268,7 @@ export default function VoiceSupportSite() {
                   rel="noreferrer"
                   className="inline-block rounded-full bg-rose-400 px-8 py-3 font-semibold text-white shadow-sm transition duration-300 hover:scale-[1.04] hover:bg-rose-500"
                 >
-                 احجز الآن 💗
+                  احجز الآن 💗
                 </a>
               </div>
             ))}
